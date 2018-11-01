@@ -10,6 +10,12 @@ namespace ClothingApp
         Credit,
         PayPal
     }
+        enum TypeOfClothing
+    {
+        Shirt,
+        Sweather,
+        Pants
+    }
     class UserAccount
     {
         #region Properties
@@ -24,18 +30,6 @@ namespace ClothingApp
         #endregion
 
 
-    }
-    class GuestAccount
-    {
-        #region Properties
-        /// <summary>
-        /// User account properties
-        /// </summary>
-        public string GuestAccountEmail { get; set; }
-        public string GuestAccountAddress { get; set; }
-        public string GuestAccountPayment { get; set; }
-
-        #endregion
     }
 
     class Clothing
